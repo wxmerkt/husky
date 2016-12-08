@@ -94,10 +94,10 @@ def main():
 
     try:
 
-        time.sleep(15)
+        #time.sleep(15)
 
         rospy.init_node("stow_left", anonymous=True, disable_signals=True)
-        client = actionlib.SimpleActionClient('l_arm_controller/follow_joint_trajectory', FollowJointTrajectoryAction)
+        client = actionlib.SimpleActionClient('/husky_left_ur5/follow_joint_trajectory', FollowJointTrajectoryAction)
 	print "Waiting for ur5_arm server..."
 	client.wait_for_server()
 	print "Connected to ur5_arm server"
