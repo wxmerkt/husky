@@ -50,7 +50,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       ymin: -100.0
       xmax: 100.0
       ymax: 100.0
-      delta: 0.05
+      delta: 0.02
 
       # All default
       sigma: 0.05
