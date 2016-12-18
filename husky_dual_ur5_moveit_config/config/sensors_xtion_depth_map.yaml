@@ -1,10 +1,10 @@
 sensors:
     - sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
-      point_cloud_topic: /xtion/depth/points
+      point_cloud_topic: /xtion/depth_registered/points
       queue_size: 2
       near_clipping_plane_distance: 0.3
-      far_clipping_plane_distance: 5.0
+      far_clipping_plane_distance: 4.0
       shadow_threshold: 0.2
       padding_scale: 4.0
-      padding_offset: 0.03
+      padding_offset: 0.05
       filtered_cloud_topic: filtered_cloud

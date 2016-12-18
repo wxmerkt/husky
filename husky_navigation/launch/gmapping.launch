@@ -46,10 +46,10 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       resampleThreshold: 0.5
 
       # Initial Map Size
-      xmin: -100.0
-      ymin: -100.0
-      xmax: 100.0
-      ymax: 100.0
+      xmin: -10.0
+      ymin: -10.0
+      xmax: 10.0
+      ymax: 10.0
       delta: 0.02
 
       # All default
