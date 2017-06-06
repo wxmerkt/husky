@@ -4,6 +4,11 @@ world_frame: odom
 
 two_d_mode: true
 
+# 2017-06-06: wxm added to avoid lag, doesnt work though
+#use_control: true # listens to /cmd_vel and will use it in state prediction to avoid lag
+#control_config: [true,  false, false, # xdot ydot zdot
+#                 false, false, true]  # rolldot pitchdot yawdot
+
 frequency: 50
 
 odom0: husky_velocity_controller/odom
