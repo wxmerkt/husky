@@ -14,8 +14,8 @@ frequency: 50
 odom0: husky_velocity_controller/odom
 odom0_config: [false, false, false,
                false, false, false,
-               true, true, true,
-               false, false, true,
+               true, true, false, # tom moore defaulted to this 2 years ago #true, false, false,    # x y z velocities
+               false, false, true,    # yaw velocity
                false, false, false]
 odom0_differential: false
 odom0_queue_size: 10
